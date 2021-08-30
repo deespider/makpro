@@ -1,0 +1,194 @@
+$color1: #21003A; 
+$color2: rgb(0, 195, 255);
+h1{
+    color: $color1;
+    font-weight: bold;
+    text-transform: uppercase;
+    span{
+        color: $color2;
+    }
+}
+
+@mixin gbutton {
+    border: none;
+    border-radius: 30px;
+    padding: 5px 20px 5px 20px;
+    background-color: $color1;
+    text-transform: uppercase;
+}
+
+// *{
+//     padding: 0;
+//     margin: 0;
+//     box-sizing: border-box;
+// }
+
+//=========================Main Banner Div=======================//@at-root
+
+.banner{
+    width: 100%;
+    height: 130vh;
+    background-image: url('./pic.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+//===================For Giving Space from the header (margin-top: -60px)======================//
+
+.space{
+    // background-color: rgb(255, 149, 149);
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+
+}
+
+//======================== ForBanner Contant =========================//@at-root
+
+.banner_cont{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    color:$color1;
+    // background-color: rgb(151, 107, 107);
+}
+
+.banner_cont_divc{
+    padding: 0;
+    margin: 20px 0px 0px 0px;
+    width: 70%;
+    
+}
+
+.banner_cont_p1{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.banner_cont_p2{
+    font-size: 85px;
+    font-weight: bold;
+    padding:-60px;
+    margin-top: -30px;
+}
+
+.banner_cont_p3{
+    font-size: 35px;
+    font-weight: bold;
+    padding:-60px;
+    margin-top: -40px;
+}
+
+.banner_button{
+    @include gbutton;
+}
+.banner_buttonL{
+    text-decoration: none;
+    color: $color2;
+}
+
+.banner_img img{
+    width: 700px;
+    height: 400px;
+    
+}
+
+.banner_img{
+    display: flex;
+    align-items: center;
+}
+
+.webinar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -30px;
+    div{
+        width: 50%;
+        background: $color2;
+        padding: 50px;
+        border-radius: 10px;
+        text-align: center;
+        h1{
+            font-weight: bold;
+        }
+    }
+    button{
+        width: 20%;
+        height: 70px;
+        margin-top: -34px;
+        border: none;
+        border-radius: 50px;
+        background-color:$color1;
+        color: $color2;
+        font-weight: bold;
+        font-size: 20px;
+    }
+}
+
+//=============================Common Divs===============================//
+
+@mixin homediv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.homediv1{
+    @include homediv;
+}
+
+.homediv11{
+    width: 40%;
+    .homediv11b button{
+        @include gbutton;
+        color: $color2;
+    }
+}
+
+.lot1{
+    width: 30%;
+}
+
+.homediv2{
+    @include homediv;
+    flex-direction: row-reverse;
+}
+
+.homediv21{
+    width: 50%;
+    text-align: right;
+    padding-right: 50px;
+    .homediv21b button{
+        @include gbutton;
+        color: $color2;
+    }
+}
+
+.lot2{
+    width: 40%;
+}
+
+.cp{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .cpp span{
+        color:$color2
+    }
+    .cpimage{
+        display: flex;
+        justify-content: center;
+        img{
+            width: 70%;}
+    } 
+}

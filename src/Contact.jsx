@@ -1,11 +1,12 @@
 import React from "react";
-import ReactDOM from "react-dom"
 
-const head = (
-    <hi className="title">Contact Us</hi>
-);
+let Contact =() =>{
+    return(
+        <>
+            <h1> Welcome to our Contact page</h1>
+        </>
+    );
+}; 
 
-ReactDOM.render(
-    head,
-    document.getElementById('App')
-);
+
+export default Contact;

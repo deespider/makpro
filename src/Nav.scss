@@ -1,0 +1,64 @@
+$color1: #21003A; 
+$color2: rgb(0, 195, 255);
+header{
+    width: 100%;
+    // height: 60px;
+    display: flex;
+    
+    
+    // justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: $color1;
+    color: white;
+    text-transform: uppercase;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    li{
+        text-decoration: none;
+        list-style-type: none;
+        justify-content: space-between;
+        padding: 20px;
+    }
+}
+.nav_button{
+    width: 100%;
+    
+}
+.nav_button button{
+    
+    border: none;
+    border-radius: 30px;
+    padding: 5px 20px 5px 20px;
+    background-image: linear-gradient(to bottom right, #FF976D, #FF3690);
+    text-transform: uppercase;
+}
+.logo{
+    
+}
+.logolink{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menuitem{
+    text-decoration: none;
+    color: white;
+    &:hover{
+        color:$color2;
+    }
+}
+
+.activeitem{
+    font-weight: bold;
+    color: $color2;
+}
+.contact{
+    text-decoration: none;
+    color: #000;
+}
