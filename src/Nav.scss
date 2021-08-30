@@ -1,12 +1,10 @@
-$color1: #21003A; 
+$color1: #010080; 
 $color2: rgb(0, 195, 255);
 header{
     width: 100%;
-    // height: 60px;
+    height: 60px;
     display: flex;
-    
-    
-    // justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 10px;
     background-color: $color1;
@@ -16,34 +14,27 @@ header{
 
 .menu ul{
     display: flex;
-    justify-content: center;
     li{
         text-decoration: none;
         list-style-type: none;
-        justify-content: space-between;
-        padding: 20px;
+        margin: 0px 35px -15px 25px;
     }
 }
-.nav_button{
-    width: 100%;
-    
-}
+
 .nav_button button{
-    
+    justify-content: end;
     border: none;
     border-radius: 30px;
     padding: 5px 20px 5px 20px;
     background-image: linear-gradient(to bottom right, #FF976D, #FF3690);
     text-transform: uppercase;
 }
-.logo{
-    
-}
+
 .logolink{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
+    img{
+        width: 180px;
+    height: 40px;
+    }
 }
 
 .menuitem{

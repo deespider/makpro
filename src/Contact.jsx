@@ -6,7 +6,6 @@ let Contact =() =>{
             <h1> Welcome to our Contact page</h1>
         </>
     );
-}; 
-
+};
 
 export default Contact;
