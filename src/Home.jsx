@@ -128,7 +128,7 @@ let Home = () => {
 
             {/*======================= copyright ===========================*/}
             
-            <div className="copy">Copyright 2021 | Designed and Developed by MAKAUT,WB</div>
+            <div className="copy">Copyright &copy; 2021 | Designed and Developed by MAKAUT,WB</div>
 
         </>
     );
