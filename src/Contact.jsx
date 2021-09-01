@@ -10,8 +10,12 @@ let Contact =() =>{
             <div className="row">
                 <div className="col-6 formportion">
                 <form className="cont">
+<<<<<<< HEAD
                 <h1>Contact Us</h1>
                 <br />
+=======
+                <h3>Contact Us</h3>
+>>>>>>> dc9ec4cf7f769704a3dded89def3aad4af7e4752
 
                 <div className="form-group">
                     <input type="text" className="form-control nm" placeholder="Name *" />
@@ -25,14 +29,20 @@ let Contact =() =>{
                     <textarea className="form-control textarea" rows="5" placeholder="Message"></textarea>
                 </div>
                 
+<<<<<<< HEAD
                 <div className="d-flex send-msg-div ">
                     <button type="submit" className="hvr-bounce-to-right send-msg">
+=======
+                <div className="send-msg-div">
+                    <button type="submit" className="hvr-bounce-to-right">
+>>>>>>> dc9ec4cf7f769704a3dded89def3aad4af7e4752
                         Send Message to Us
                     </button>
                 </div>
                 </form>
                 </div>
                 <div className="col-6">
+<<<<<<< HEAD
                     <div className="row addr-sec">
                         <div className="col-6">
                             <p className="college-name">Maulana Abul Kalam Azad University of Technology, West Bengal</p>
@@ -40,6 +50,8 @@ let Contact =() =>{
                             <p>Phone: (033) 2321 0731/1327</p>
                         </div>
                     </div>
+=======
+>>>>>>> dc9ec4cf7f769704a3dded89def3aad4af7e4752
                 </div>
 
             </div>
