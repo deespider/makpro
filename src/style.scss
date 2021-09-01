@@ -1,0 +1,42 @@
+$color2: rgb(0, 195, 255);
+// ---------------------Contact Page------------------------
+.formportion {
+    display: flex;
+    background-color: lightgray;
+    justify-content: center;
+    height:100%;
+}
+
+.cont{
+    width: 50%;
+    height: auto;
+    justify-content:center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 5px;
+    margin:20px;
+    background-color: white;
+    h1 {
+        text-align: center;
+    }
+
+}
+.form-group {
+    margin: 6px;
+}
+.send-msg-div {
+    display: flex;
+    justify-content: center;
+}
+.send-msg {
+    background-color:$color2;
+    color: white;
+    font-size: 20px;
+    padding: 4px;
+    border-radius: 10px;
+}
+.college-name {
+    color: $color2;
+    font-size: medium;
+}
+
