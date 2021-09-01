@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+$color1: #010080; 
 $color2: rgb(0, 195, 255);
 // ---------------------Contact Page------------------------
 .formportion {
@@ -6,17 +6,11 @@ $color2: rgb(0, 195, 255);
     background-color: lightgray;
     justify-content: center;
     height:100%;
-=======
-// ---------------------Contact Page------------------------
-.formportion {
-    background-color: lightgray;
->>>>>>> dc9ec4cf7f769704a3dded89def3aad4af7e4752
 }
 
 .cont{
     width: 50%;
     height: auto;
-<<<<<<< HEAD
     justify-content:center;
     align-items: center;
     border: 1px solid black;
@@ -44,14 +38,24 @@ $color2: rgb(0, 195, 255);
 }
 .college-name {
     color: $color2;
-    font-size: medium;
+    font-size:large;
 }
-
-=======
+.address{
+    display: flex;
+    flex-direction:column;
     justify-content: center;
-    align-items: center;
-    border: 1px solid black;
-    padding: 5px;
-
 }
->>>>>>> dc9ec4cf7f769704a3dded89def3aad4af7e4752
+
+.contacting {
+    max-width: 100%;
+    height: auto;
+}
+.map-responsive {
+    background-color: $color1 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 30px;
+}
+

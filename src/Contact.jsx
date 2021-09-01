@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import './home.scss';
 import './style.scss';
 import logo2 from './logo2.png';
+import clogo1 from './contact1.jpeg';
 
 let Contact =() =>{
     return(
@@ -10,12 +11,8 @@ let Contact =() =>{
             <div className="row">
                 <div className="col-6 formportion">
                 <form className="cont">
-<<<<<<< HEAD
                 <h1>Contact Us</h1>
                 <br />
-=======
-                <h3>Contact Us</h3>
->>>>>>> dc9ec4cf7f769704a3dded89def3aad4af7e4752
 
                 <div className="form-group">
                     <input type="text" className="form-control nm" placeholder="Name *" />
@@ -29,29 +26,27 @@ let Contact =() =>{
                     <textarea className="form-control textarea" rows="5" placeholder="Message"></textarea>
                 </div>
                 
-<<<<<<< HEAD
                 <div className="d-flex send-msg-div ">
                     <button type="submit" className="hvr-bounce-to-right send-msg">
-=======
-                <div className="send-msg-div">
-                    <button type="submit" className="hvr-bounce-to-right">
->>>>>>> dc9ec4cf7f769704a3dded89def3aad4af7e4752
                         Send Message to Us
                     </button>
                 </div>
                 </form>
                 </div>
                 <div className="col-6">
-<<<<<<< HEAD
                     <div className="row addr-sec">
-                        <div className="col-6">
+                        <div className="col-6 address">
                             <p className="college-name">Maulana Abul Kalam Azad University of Technology, West Bengal</p>
                             <p>NH-12(old NH-4) Simhat, Haringhata, Nadia-741249, West Bengal, India</p>
                             <p>Phone: (033) 2321 0731/1327</p>
                         </div>
+                        <div className="col-6">
+                            <img src={clogo1} alt="" className="contacting" />
+                        </div>
                     </div>
-=======
->>>>>>> dc9ec4cf7f769704a3dded89def3aad4af7e4752
+                    <div class="map-responsive">
+                    <iframe title="MAKAUT_Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.2022117216698!2d88.54309953992052!3d22.95643696613416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8bf5871a9e0d7%3A0x3cbdf3b9f157e355!2sMAKAUT%20MAIN%20CAMPUS!5e0!3m2!1sen!2sin!4v1630534417601!5m2!1sen!2sin" width="100%" height="auto" allowfullscreen="" loading="lazy" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
                 </div>
 
             </div>
