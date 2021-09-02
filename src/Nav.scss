@@ -1,23 +1,106 @@
 $color1: #010080; 
 $color2: rgb(0, 195, 255);
-header{
+
+.lebudiv{
     width: 100%;
-    height: 60px;
+    height: 30px;
+    background-image: linear-gradient(to right, $color2 , rgb(0, 255, 213));
+    margin-bottom: -1px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    background-color: $color1;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: row-reverse;
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fafa{
+        margin-left: 20px;
+        margin-right: 5px;
+    }
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+}
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    background-color: #00004ded;
     color: white;
     text-transform: uppercase;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 }
 
-.menu ul{
+.menu .navul{
     display: flex;
-    li{
+    justify-content: center;
+    margin-top: 15px;
+    .lili{
         text-decoration: none;
         list-style-type: none;
-        margin: 0px 35px -15px 25px;
+        margin: 0px 40px;
+    }
+    #lili1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        color: white;
+        &:hover div{
+            visibility: visible;
+        }
+
+        div{
+            width: 110px;
+            margin-top: 6%;
+            background-color: $color2;
+            position: absolute;
+            color: $color1;
+            border-radius: 5px;
+            visibility: hidden;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            li {
+                &:hover{
+                    background-color: $color1;
+                    width: 100px;
+                    padding: 5px;
+                }
+                .drpbtnlnk{
+                color: $color1;
+                text-decoration: none;
+                &:hover{
+                    color: $color2;
+                }  }
+            }
+            
+        }
+    }
+    select{
+        margin: 10px 35px -15px 25px;
+        background-color: $color1;
+        border: none;
+        color: white;
+        option{
+            width: 200px;
+            background-color: $color2;
+        }
     }
 }
 
@@ -32,8 +115,8 @@ header{
 
 .logolink{
     img{
-        width: 180px;
-    height: 40px;
+        width: 150px;
+    height: 43px;
     }
 }
 
@@ -51,5 +134,5 @@ header{
 }
 .contact{
     text-decoration: none;
-    color: #000;
+    color: rgb(255, 255, 255);
 }
