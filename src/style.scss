@@ -1,14 +1,75 @@
+$color1: #010080; 
+$color2: rgb(0, 195, 255);
+$color3: rgb(48, 48, 48);
 // ---------------------Contact Page------------------------
-.formportion {
-    background-color: lightgray;
-}
 
-.cont{
-    width: 50%;
-    height: auto;
-    justify-content: center;
+.maincontact{
+    width: 100%;
+    height: 80vh;
+    display: flex;
     align-items: center;
-    border: 1px solid black;
-    padding: 5px;
-
+    background-color:$color3;
+    .formdiv{
+        width: 50%;
+        height: 100%;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        div{
+            width: 70%;
+            h1{
+                margin-bottom: 40px;
+                color: white;
+            }
+            input{
+                margin-bottom: 30px;
+                border: none;
+            }
+            textarea{
+                margin-bottom: 30px;
+                border: none;
+            }
+            button{
+                border: none;
+                padding: 10px;
+                border-radius: 5px;
+                background-color: $color2;
+            }
+        }
+    }
+    .adrsdiv{
+        width: 50%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .adrsdiv0{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .adrsdiv1{
+                width: 40%;
+                margin-left: 30px;
+                font-size: 18px;
+                .collegename{
+                    color: $color2;
+                    font-weight: bold;
+                }
+            }
+        }
+        .adrsdiv2{
+            width: 100%;
+            padding: 50px;
+            background-color:$color1;
+            margin-bottom: -9px;
+            iframe{
+                border-radius: 10px;
+                border: 4px solid $color2;
+            }
+        }
+    }
 }

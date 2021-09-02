@@ -1,0 +1,24 @@
+.abmain{
+    height: 100vh;
+    display: flex;
+    .absub{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 5%;
+        text-align: justify;
+    }
+    .absub2{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 5%;
+        .ablot{
+            width: 100%;
+        }
+    }
+}
