@@ -1,0 +1,39 @@
+$color1:rgb(0, 195, 255);
+
+.event-menu{
+    padding:10px;
+    justify-content: center;
+    margin: 10px;
+    background-color: lightgrey;
+    
+    ul{
+        // border: 1px solid black;
+        li{
+            text-decoration: none;
+            list-style: none;
+            border: 1px solid black;
+            border-radius: 5px;
+            background-color: white;
+            margin: 4px;
+            
+            a:link{
+                text-decoration: none;
+                color: black;
+            }
+            a:active{
+                color: $color1;
+            }
+            
+        }
+    }
+    
+}
+
+.ul {
+    background-color: white;
+    .li{
+        text-decoration: none;
+        list-style: none;
+        color: black;
+    }
+}

@@ -8,6 +8,7 @@ $color3: rgb(48, 48, 48);
     background-color: $color3;
     justify-content: center;
     height:100%;
+    padding: 50px;
 }
 
 .cont{
@@ -15,12 +16,13 @@ $color3: rgb(48, 48, 48);
     height: auto;
     justify-content:center;
     align-items: center;
-    border: 1px solid black;
+    // border: 1px solid black;
     padding: 5px;
     margin:20px;
-    background-color: white;
+    // background-color: white;
     h1 {
         text-align: center;
+        color: white;
     }
 
 }
@@ -57,7 +59,8 @@ $color3: rgb(48, 48, 48);
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0;
+    margin-left: -18px;
+    height: 100%;
     padding: 30px;
     iframe{
         border-radius: 10px;
